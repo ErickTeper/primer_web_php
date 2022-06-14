@@ -1,0 +1,706 @@
+
+body {
+    background-color: black;
+    margin-top: 0;
+    background-image: url(./imagenes/imgfondo.png)
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    height: 25vh;
+    width: 80vw;
+    text-align: center;
+	margin-left: 9vw;
+    position: fixed; /* mantenerse estatico en pantalla*/
+    background-image: url(./imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 80% 120%;
+    display:flex
+}
+
+#fondo1{
+    background-color: rgb(0, 0, 0);
+    background-image: url(./imagenes/imgfondo.png);
+    margin-left: -1%;
+    height: 25vh;
+    width: 11.5%;
+}
+
+#fondo2{
+    background-color: rgb(0, 0, 0);
+    background-image: url(./imagenes/imgfondo.png);
+    margin-left: 77.4%;
+    height: 25vh;
+    width: 11.5%;
+}
+
+#navegacion {
+    margin-top: 25vh;
+    position: fixed;
+	margin-left: 9vw;
+    text-align: center;
+    background-color: none;
+    height: 5.2vh;
+    width: 80vw;
+    overflow: hidden; /*oculta contenido de la caja en vez d esalirse de la misma*/
+}
+#botonera1 {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0vh;
+    margin-left: 0vw;
+}
+
+.list1 {
+    display: inline;
+    margin-top: 0vh;
+   margin-left: 0.1vh;
+}
+
+.vinc1 {
+    display: inline-block; /* permite colocar width, height, margin...*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0vh 0.3vw;
+    height: 5vh;
+    width: 15vw;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 5vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 1px solid rgba(51, 66, 151, 0.7) ;
+    border-radius: 0% 0% 60% 70%;
+}
+
+.vinc1:hover {
+    background-image: url(./imagenes/trade.jpg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110% 250%;
+    font-weight: bold;
+    border-left: 2px solid rgba(27, 121, 58, 0.7) ;
+    text-shadow: 2px 2px 1px rgb(85, 85, 85);
+}
+
+.espacio {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0;
+    height: 30vh;
+    width: 80vw;
+    margin-left: 9vw;
+}
+
+.seccion1 {
+    background-color: rgb(0, 0, 0);
+    margin-top: 0.2vh;
+    margin-left: 9vw;
+    width: 68vw;
+    height: 40vh;
+    display: flex;
+    border-right: black 1vw;
+}
+
+#imgAcciones {
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 31vw;
+    background-image: url(./imagenes/imgacciones.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+#capa1 {
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 31vw;
+    background: linear-gradient(270deg,black,transparent);
+}
+
+#descAcciones{
+    background-color: rgb(0, 0, 0);
+    background-image: url(./imagenes/imgfondo.png);
+    padding-right: 0.2vw;
+    height: 40vh;
+    width: 29.8vw;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    text-align: right;
+   display: flex;
+    flex-direction: column;
+}
+.titulo-sec{
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size:20px;
+    font-weight: 500;
+}
+.cont-imgsec{
+    height: 26vh;
+    width: 28vw;
+    border-radius: 20% 20% 0% 0%;
+    margin-top: 3vh;
+}
+
+
+.botonera{
+    height: 40vh;
+    width: 7vw;
+}
+#ul-bot-acc{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0vh;
+
+}
+
+.list-bot-acc{
+    margin-top: 0vh;
+    margin-left: 0vw;
+}
+
+.vinc-bot-acc{
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: aliceblue;
+    background-color: rgba(2, 107, 16, 0.178);
+    height: 8.5vh;
+    width: 6.8vw;
+    margin: 0;
+    border: solid 1px grey;
+    padding-top: 4.5vh;
+    text-align: center;
+}
+.vinc-bot-acc:hover{
+    background-color: rgba(3, 122, 19, 0.329);
+}
+
+.seccion2 {
+    background-color: rgb(0, 0, 0);
+    margin-left: 9vw;
+    width: 68vw;
+    height: 39.8vh;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+#imgCriptos {
+    background-color: blanchedalmond;
+    height: 40vh;
+    width: 31vw;
+    background-image: url(./imagenes/imgcriptoss.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+
+}
+
+#capa2 {
+    background-color: rgb(0, 0, 0);
+    height: 40vh;
+    width: 31vw;
+    background: linear-gradient(90deg,black,transparent);
+}
+
+#desCriptos{
+    margin-top: 0.1vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url(./imagenes/imgfondo.png);
+    height: 40vh;
+    width: 30vw;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#legal {
+    background-color: rgba(0, 0, 129, 0.26);
+    color: rgb(177, 177, 177);
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+    padding-top: 16vh;
+    height: 80vh;
+    width: 12vw;
+    margin-left: 77vw;
+    margin-top: -79.8vh;
+    text-align: center;
+    border-radius: 40% 40% 40% 40%;
+}
+
+
+/*------------------------------------primer RESPONSIVE 768px 992px------------------------------------------------*/
+
+@media all and (min-width: 768px) and (max-width: 992px) {
+    
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #navegacion {  
+        margin-left: 5vw;
+        height: 80vh;
+        width: 18vw;  
+    }
+  
+    .list1 { 
+       margin-left: -5vw;
+    }
+    
+    .vinc1 {
+        margin: 1vh 5vw;
+        height: 10vh; 
+        width: 15vw;
+        font-size: 1rem;
+        line-height: 10vh; 
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 0% 50% 50% 0%;
+    }
+    
+    .vinc1:hover {
+        margin: 1vh 6vw;
+        height: 10vh;
+        line-height: 10vh; 
+        font-size: 1rem;
+        background-size: 170% 170%;
+        border-radius: 50% 50% 50% 50%;
+    }
+    
+    .espacio {
+        height: 25vh;
+    }
+    
+    .seccion1 {
+        flex-direction: column;
+        background-color: rgba(0, 255, 255, 0);
+        width: 80vw;
+    }
+
+    #imgAcciones {
+        height: 0; 
+        width: 0; 
+    }
+    #capa1 {
+        height: 0;
+        width: 0;
+    }
+
+    .titulo-sec{
+        font-size:15px;
+        font-weight: 500;
+    }
+  
+    #descAcciones{
+        height: 10vh;
+        width: 45vw;
+        margin-top: 0vh;
+        margin-left: 14vw;
+        padding-right: 0vw;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    #botAcciones{  
+        margin-left: 60vw;
+        margin-top: -5vh;
+
+    }
+    .seccion2 {
+        background-color: rgba(0, 0, 255, 0);
+        display: flex;
+        flex-direction:column;
+        
+    }
+    #capa2 {
+        background-color: rgba(0, 0, 0, 0.979);
+        height: 0;
+        width: 0;
+        background: linear-gradient(90deg,black,transparent);
+    }
+    
+    #imgCriptos {
+        background-color: black;
+        height: 0;
+        width: 0; 
+    
+    }
+    
+    #capa2 {
+        height: 0vh;
+        width: 0vw;
+        background: linear-gradient(270deg,black -5%,transparent);
+    }
+    
+    #desCriptos{
+        height: 10vh;
+        width: 45vw;
+        margin-top: 0vh;
+        margin-left: 14vw;
+        padding-right: 0vw;
+        font-size: 0.9rem;
+        text-align:center;
+    }
+    
+    #botCriptos{
+        width: 8vw;
+        margin-left: 60vw;
+        margin-top: -5vh;
+        
+    }
+    .cont-imgsec{
+        height: 28vh;
+        width: 40vw;
+        border-radius: 20% 20% 0% 0%;
+        margin-top: 0vh;
+    }
+
+    .vinc-bot-acc{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        color: aliceblue;
+        background-color: rgba(2, 107, 16, 0.178);
+        height: 6vh;
+        width: 15vw;
+        margin: 0;
+        border: solid 1px grey;
+        padding-top: 4.5vh;
+        text-align: center;
+    }
+
+    #legal {
+        background-color: rgba(0, 0, 129, 0.26);
+        color: rgb(177, 177, 177);
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        box-sizing: border-box;
+        margin-left: 25vw;
+        margin-top: 0vh;
+        padding-top: 3vh;
+        height: 25vh;
+        width: 60vw;
+        text-align: center;
+        border-radius: 20% 20% 20% 20%;
+    }
+
+}
+/*----------------------------------------segundo RESPONSIVE 576px 768px------------------------------------------------*/
+@media all and (min-width: 576px) and (max-width: 768px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #navegacion {  
+        margin-left: 5vw;
+        height: 80vh;
+        width: 18vw;  
+    }
+  
+    .list1 { 
+       margin-left: -5vw;
+    }
+    
+    .vinc1 {
+        margin: 1vh 5vw;
+        height: 10vh; 
+        width: 15vw;
+        font-size: 0.8rem;
+        line-height: 10vh; 
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 0% 50% 50% 0%;
+    }
+    
+    .vinc1:hover {
+        margin: 1vh 6vw;
+        height: 10vh;
+        line-height: 10vh; 
+        font-size: 1rem;
+        background-size: 170% 170%;
+        border-radius: 50% 50% 50% 50%;
+    }
+    
+    .espacio {
+        height: 25vh;
+    }
+    
+    .seccion1 {
+        flex-direction: column;
+        background-color: rgba(0, 255, 255, 0);
+        width: 80vw;
+    }
+
+    #imgAcciones {
+        height: 0; 
+        width: 0; 
+    }
+    #capa1 {
+        height: 0;
+        width: 0;
+    }
+
+    .titulo-sec{
+        background-color: rgba(85, 51, 6, 0);
+        width: 70vw;
+        font-size:16px;
+        font-weight: 400;
+    }
+  
+    #descAcciones{
+        height: 10vh;
+        width: 45vw;
+        margin-top: 0vh;
+        margin-left: 14vw;
+        padding-right: 0vw;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    #botAcciones{  
+        margin-left: 70vw;
+        margin-top: 0vh;
+    }
+    .seccion2 {
+        background-color: rgba(0, 0, 255, 0);
+        display: flex;
+        flex-direction:column;  
+    }
+    #capa2 {
+        background-color: rgba(0, 0, 0, 0.979);
+        height: 0;
+        width: 0;
+        background: linear-gradient(90deg,black,transparent);
+    }
+    
+    #imgCriptos {
+        background-color: black;
+        height: 0;
+        width: 0; 
+    }
+    
+    #capa2 {
+        height: 0vh;
+        width: 0vw;
+        background: linear-gradient(270deg,black -5%,transparent);
+    }
+    
+    #desCriptos{
+        height: 10vh;
+        width: 0vw;
+        margin-top: 0vh;
+        margin-left: 14vw;
+        padding-right: 0vw;
+        font-size: 0.9rem;
+        text-align:center;
+    }
+    
+    #botCriptos{
+        margin-left: 70vw;
+        margin-top: 0vh;  
+    }
+    .cont-imgsec{
+        height: 28vh;
+        width: 55vw;
+        margin-left: 0vw;
+        border-radius: 30% 30% 30% 30%;
+        margin-top: 0vh;
+    }
+
+    .vinc-bot-acc{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 15px;
+        color: aliceblue;
+        background-color: rgba(2, 107, 16, 0.178);
+        height: 6vh;
+        width: 15vw;
+        margin-top: 0;
+        border: solid 1px grey;
+        padding-top: 3.5vh;
+        text-align: center;
+    }
+
+    #legal {
+        background-color: rgba(0, 0, 129, 0.26);
+        color: rgb(177, 177, 177);
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        box-sizing: border-box;
+        margin-left: 25vw;
+        margin-top: 2vh;
+        padding-top: 3vh;
+        height: 25vh;
+        width: 60vw;
+        text-align: center;
+        border-radius: 20% 20% 20% 20%;
+    }
+
+}/*-----------------------------------------RESPONSIVE <576px------------------------------------------------*/
+@media all and (min-width: 0px) and (max-width: 576px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #navegacion {  
+        margin-left: 5vw;
+        height: 80vh;
+        width: 18vw;  
+    }
+  
+    .list1 { 
+       margin-left: -5vw;
+    }
+    
+    .vinc1 {
+        margin: 1vh 5vw;
+        height: 10vh; 
+        width: 15vw;
+        font-size: 0.8rem;
+        line-height: 10vh; 
+        border-top: 1px solid rgba(255, 255, 255, 0.7);
+        border-radius: 0% 50% 50% 0%;
+    }
+    
+    .vinc1:hover {
+        margin: 1vh 6vw;
+        height: 10vh;
+        line-height: 10vh; 
+        font-size: 1rem;
+        background-size: 170% 170%;
+        border-radius: 50% 50% 50% 50%;
+    }
+    
+    .espacio {
+        height: 25vh;
+    }
+    
+    .seccion1 {
+        flex-direction: column;
+        background-color: rgba(0, 255, 255, 0);
+        width: 80vw;
+    }
+
+    #imgAcciones {
+        height: 0; 
+        width: 0; 
+    }
+    #capa1 {
+        height: 0;
+        width: 0;
+    }
+
+    .titulo-sec{
+        background-color: rgba(250, 235, 215, 0);
+        width: 70vw;
+        font-size:13px;
+        font-weight: 400;
+    }
+  
+    #descAcciones{
+        height: 10vh;
+        width: 45vw;
+        margin-top: 0vh;
+        margin-left: 14vw;
+        padding-right: 0vw;
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    #botAcciones{  
+        margin-left: 70vw;
+        margin-top: 0vh;
+    }
+    .seccion2 {
+        background-color: rgba(0, 0, 255, 0);
+        display: flex;
+        flex-direction:column;  
+    }
+    #capa2 {
+        background-color: rgba(0, 0, 0, 0.979);
+        height: 0;
+        width: 0;
+        background: linear-gradient(90deg,black,transparent);
+    }
+    
+    #imgCriptos {
+        background-color: black;
+        height: 0;
+        width: 0; 
+    }
+    
+    #capa2 {
+        height: 0vh;
+        width: 0vw;
+        background: linear-gradient(270deg,black -5%,transparent);
+    }
+    
+    #desCriptos{
+        background-color: rgba(137, 43, 226, 0.253);
+        height: 10vh;
+        width: 0vw;
+        margin-top: 0vh;
+        margin-left: 14vw;
+        padding-right: 0vw;
+        font-size: 0.9rem;
+        text-align:center;
+    }
+    
+    #botCriptos{
+        margin-left: 70vw;
+        margin-top: 0vh;  
+    }
+    .cont-imgsec{
+        height: 28vh;
+        width: 55vw;
+        margin-left: 0vw;
+        border-radius: 30% 30% 30% 30%;
+        margin-top: 0vh;
+    }
+
+    .vinc-bot-acc{
+        display: inline-block;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        font-size: 12px;
+        color: aliceblue;
+        background-color: rgba(2, 107, 16, 0.178);
+        height: 6vh;
+        width: 15vw;
+        margin-top: 0;
+        border: solid 1px grey;
+        padding-top: 3.5vh;
+        text-align: center;
+    }
+
+    #legal {
+        background-color: rgba(0, 0, 129, 0.26);
+        color: rgb(177, 177, 177);
+        font-size: 10px;
+        font-family: 'Inter', sans-serif;
+        box-sizing: border-box;
+        margin-left: 25vw;
+        margin-top: 3vh;
+        padding-top: 3vh;
+        height: 25vh;
+        width: 60vw;
+        text-align: center;
+        border-radius: 20% 20% 20% 20%;
+        display: flex;
+    }
+
+    #legal2{
+        margin-top: 2vh;
+    }
+
+}

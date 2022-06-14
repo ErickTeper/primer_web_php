@@ -1,0 +1,66 @@
+#head {
+    background-color: rgb(0, 0, 0);
+    height: 25vh;
+    width: 80vw;
+    text-align: center;
+	margin-left: 9vw;
+    position: fixed; /* mantenerse estatico en pantalla*/
+    background-image: url(./imagenes/logo.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: 80% 120%;
+}
+
+#navegacion {
+    margin-top: 25vh;
+    position: fixed;
+	margin-left: 9vw;
+    text-align: center;
+    background-color: none;
+    height: 5.2vh;
+    width: 80vw;
+    overflow: hidden; /*oculta contenido de la caja en vez d esalirse de la misma*/
+}
+
+#botonera1 {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0vh;
+    margin-left: 0vw;
+}
+
+.list1 {
+    display: inline;
+    margin-top: 0vh;
+   margin-left: 0.1vh;
+}
+
+.vinc1 {
+    display: inline-block; /* permite colocar width, height, margin...*/
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0vh 0.3vw;
+    height: 5vh;
+    width: 15vw;
+    font-size: 1.2rem;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: 5vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 1px solid rgba(51, 66, 151, 0.7) ;
+    border-radius: 0% 0% 60% 70%;
+}
+
+.vinc1:hover {
+    background-image: url(./imagenes/trade.jpg);
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110% 250%;
+    font-weight: bold;
+    border-left: 2px solid rgba(27, 121, 58, 0.7) ;
+    text-shadow: 2px 2px 1px rgb(85, 85, 85);
+}
+
+
+

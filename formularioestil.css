@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    background-image: url(./imagenes/imgregistro.jpg);
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+    color: rgb(206, 205, 205);
+}
+
+form{
+    margin-top: 28vh;
+    margin-left: 10vw;
+    text-decoration-color: azure;
+    background-color: rgba(153, 37, 207, 0.452);
+    width: 280px;
+    text-align: center;
+    cursor: default;
+    border: solid rgba(0, 0, 0, 0.363);
+}
+
+#tipactivos{
+text-align: center;
+display:flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#experienciadato{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+
+}
+
+#boton {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(90, 6, 185);
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+#boton:hover {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(60, 4, 82);
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.mano{
+    cursor: pointer;
+}
+
+#tipactivos{
+    font-weight: 500;
+}
+
+#carga_correcta{
+    margin-top: 28vh;
+    width: 300px;
+    height: 100px;
+    padding-top: 40px;
+    background-color: rgba(54, 236, 99, 0.397);
+    border-radius: 0px 20px 20px 0px;
+    border: solid rgba(0, 0, 0, 0.363);
+    font-size: 16px;
+
+
+}
